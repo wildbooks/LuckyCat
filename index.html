@@ -4,15 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <title></title>
+    <title>招财猫专场</title>
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../css/app.css" />
   </head>
   <style>
     .container {
       height: 100%;
-      width: 100%
+      width: 100%;
     }
   </style>
 
@@ -38,18 +37,95 @@
       </nav>
       <div class="mui-content">
         <div id="tabbar" class="mui-control-content mui-active">
+          <header class="mui-bar mui-bar-nav">
+            <h1 class="mui-title" style="line-height: 44px;">
+              <span style="margin-top: -5px;">
+                <svg aria-hidden="true" class="octicon octicon-mark-github text-white" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+              </span>
+                                          招财猫
+            </h1>
+          </header>
+          <div class="mui-content">
+            <div class="mui-slider">
+              <div class="mui-slider-group mui-slider-loop">
+                <!--支持循环，需要重复图片节点-->
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                  <a href="#"><img src="images/slider-4.jpg" /></a>
+                </div>
+                <div class="mui-slider-item">
+                  <a href="#"><img src="images/slider-1.jpg" /></a>
+                </div>
+                <div class="mui-slider-item">
+                  <a href="#"><img src="images/slider-2.jpg" /></a>
+                </div>
+                <div class="mui-slider-item">
+                  <a href="#"><img src="images/slider-3.jpg" /></a>
+                </div>
+                <div class="mui-slider-item">
+                  <a href="#"><img src="images/slider-4.jpg" /></a>
+                </div>
+                <!--支持循环，需要重复图片节点-->
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                  <a href="#"><img src="images/slider-1.jpg" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
           <ul class="mui-table-view">
             <li class="mui-table-view-cell mui-collapse">
-              <a class="mui-navigate-right" href="#">面板1</a>
+              <a class="mui-navigate-right" href="#">电商联盟</a>
+              <div class="mui-collapse-content">
+                <a class="webShow" href="http://pub.alimama.com" target="_blank">
+                  <p>淘宝联盟</p>
+                </a>
+              </div>
+              <div class="mui-collapse-content">
+                <a class="webShow" href="https://media.jd.com">
+                  <p>京东联盟</p>
+                </a>
+              </div>
+              <div class="mui-collapse-content">
+                <a class="webShow" href="https://mall.phicomm.com/vsgoods.html?vsid=27000347328">
+                  <p>斐讯联盟</p>
+                </a>
+              </div>
+              <div class="mui-collapse-content">
+                <a class="webShow" href="http://sums.suning.com/union/home.html">
+                  <p>苏宁联盟</p>
+                </a>
+              </div>
+              <div class="mui-collapse-content">
+                <a class="webShow" href="http://union.mi.com/site/bind">
+                  <p>小米联盟</p>
+                </a>
+              </div>
+            </li>
+            <li class="mui-table-view-cell mui-collapse">
+              <a class="mui-navigate-right" href="#">区块链-路由</a>
               <div class="mui-collapse-content">
                 <p>面板1子内容</p>
               </div>
               <div class="mui-collapse-content">
-                <p>面板2子内容</p>
+                <p>面板1子内容</p>
+              </div>
+              <div class="mui-collapse-content">
+                <p>面板1子内容</p>
+              </div>
+              <div class="mui-collapse-content">
+                <p>面板1子内容</p>
               </div>
             </li>
             <li class="mui-table-view-cell mui-collapse">
-              <a class="mui-navigate-right" href="#">面板2</a>
+              <a class="mui-navigate-right" href="#">区块链-app</a>
+              <div class="mui-collapse-content">
+                <p>面板1子内容</p>
+              </div>
+              <div class="mui-collapse-content">
+                <p>面板1子内容</p>
+              </div>
+              <div class="mui-collapse-content">
+                <p>面板1子内容</p>
+              </div>
               <div class="mui-collapse-content">
                 <p>面板1子内容</p>
               </div>
@@ -57,200 +133,13 @@
           </ul>
         </div>
         <div id="tabbar-with-chat" class="mui-control-content">
-          <div class="title">这是div模式选项卡中的第2个子页面，该页面展示一个消息列表</div>
-
-          <ul class="mui-table-view mui-table-view-chevron">
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 1</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 2</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 3</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 4</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 5</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 6</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 7</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 8</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 9</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 10</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 11</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 12</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 13</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 14</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 15</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 16</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 17</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 18</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 19</a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a href="" class="mui-navigate-right">Item 20</a>
-            </li>
-          </ul>
-
+          待设模块二
         </div>
         <div id="tabbar-with-contact" class="mui-control-content">
-          <div class="title">这是div模式选项卡中的第3个子页面，该页面展示一个通讯录示例.</div>
-          <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
-            <li class="mui-table-view-cell">
-              <div class="mui-slider-cell">
-                <div class="oa-contact-cell mui-table">
-                  <div class="oa-contact-avatar mui-table-cell">
-                    <img src="../images/60x60.gif" />
-                  </div>
-                  <div class="oa-contact-content mui-table-cell">
-                    <div class="mui-clearfix">
-                      <h4 class="oa-contact-name">叶文洁</h4>
-                      <span class="oa-contact-position mui-h6">董事长</span>
-                    </div>
-                    <p class="oa-contact-email mui-h6">
-                      yewenjie@sina.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="mui-table-view-cell">
-              <div class="mui-slider-cell">
-                <div class="oa-contact-cell mui-table">
-                  <div class="oa-contact-avatar mui-table-cell">
-                    <img src="../images/60x60.gif" />
-                  </div>
-                  <div class="oa-contact-content mui-table-cell">
-                    <div class="mui-clearfix">
-                      <h4 class="oa-contact-name">艾AA</h4>
-                      <span class="oa-contact-position mui-h6">总经理</span>
-                    </div>
-                    <p class="oa-contact-email mui-h6">
-                      aaa@163.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="mui-table-view-cell">
-              <div class="mui-slider-cell">
-                <div class="oa-contact-cell mui-table">
-                  <div class="oa-contact-avatar mui-table-cell">
-                    <img src="../images/60x60.gif" />
-                  </div>
-                  <div class="oa-contact-content mui-table-cell">
-                    <div class="mui-clearfix">
-                      <h4 class="oa-contact-name">罗辑</h4>
-                      <span class="oa-contact-position mui-h6">员工</span>
-                    </div>
-                    <p class="oa-contact-email mui-h6">
-                      luoji@126.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="mui-table-view-cell">
-              <div class="mui-slider-cell">
-                <div class="oa-contact-cell mui-table">
-                  <div class="oa-contact-avatar mui-table-cell">
-                    <img src="../images/60x60.gif" />
-                  </div>
-                  <div class="oa-contact-content mui-table-cell">
-                    <div class="mui-clearfix">
-                      <h4 class="oa-contact-name">云天明</h4>
-                      <span class="oa-contact-position mui-h6">员工</span>
-                    </div>
-                    <p class="oa-contact-email mui-h6">
-                      ytm@163.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="mui-table-view-cell">
-              <div class="mui-slider-cell">
-                <div class="oa-contact-cell mui-table">
-                  <div class="oa-contact-avatar mui-table-cell">
-                    <img src="../images/60x60.gif" />
-                  </div>
-                  <div class="oa-contact-content mui-table-cell">
-                    <div class="mui-clearfix">
-                      <h4 class="oa-contact-name">史强</h4>
-                      <span class="oa-contact-position mui-h6">员工</span>
-                    </div>
-                    <p class="oa-contact-email mui-h6">
-                      shiqiang@gmail.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
+          待设模块三
         </div>
         <div id="tabbar-with-map" class="mui-control-content">
-          <div class="title">这是div模式选项卡中的第4个子页面，该页面展示一个常见的设置示例.</div>
-          <ul class="mui-table-view">
-            <li class="mui-table-view-cell">
-              <a class="mui-navigate-right">
-                新消息通知
-              </a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a class="mui-navigate-right">
-                隐私
-              </a>
-            </li>
-            <li class="mui-table-view-cell">
-              <a class="mui-navigate-right">
-                通用
-              </a>
-            </li>
-          </ul>
-          <ul class="mui-table-view" style="margin-top: 25px;">
-            <li class="mui-table-view-cell">
-              <a class="mui-navigate-right">
-                关于mui
-              </a>
-            </li>
-          </ul>
-          <ul class="mui-table-view" style="margin-top: 25px;">
-            <li class="mui-table-view-cell">
-              <a style="text-align: center;color: #FF3B30;">
-                退出登录
-              </a>
-            </li>
-          </ul>
+          待设模块四
         </div>
       </div>
     </div>
@@ -259,6 +148,28 @@
       mui(".container").on('tap', '.mui-action-menu', function() {
         mui('.mui-off-canvas-wrap').offCanvas().toggle();
       })
+      var gallery = mui('.mui-slider');
+      gallery.slider({
+        interval: 2000 //自动轮播周期，若为0则不自动播放，默认为0；
+      });
+      
+      var storeArr = {
+        '淘宝联盟': 'http://pub.alimama.com',
+        '京东联盟': 'https://qwd.jd.com/',
+        '斐讯联盟': 'https://mall.phicomm.com/vsgoods.html?vsid=27000347328',
+        '苏宁联盟': 'http://sums.suning.com/union/home.html',
+        '小米联盟': 'http://union.mi.com/site/bind'
+      }
+
+      mui('.container').on('tap', '.webShow', function(e) {
+        var storeText = e.target.innerText;
+        if(storeText) {
+          storeUrl = storeArr[storeText];
+          if(storeUrl) {
+            window.location = storeUrl;
+          }
+        }
+      });
     </script>
   </body>
 
