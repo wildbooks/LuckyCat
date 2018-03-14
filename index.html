@@ -7,6 +7,7 @@
     <title>招财猫专场</title>
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
   </head>
   <style>
     .container {
@@ -118,16 +119,22 @@
             <li class="mui-table-view-cell mui-collapse">
               <a class="mui-navigate-right" href="#">区块链-app</a>
               <div class="mui-collapse-content">
-                <p>面板1子内容</p>
+                <a class="block-app">
+                  <p>公信宝</p>
+                </a>
+                <a class="upload block-app-upload">下载1</a>
               </div>
               <div class="mui-collapse-content">
-                <p>面板1子内容</p>
+                <a class="block-app">
+                  <p>网易星球</p>
+                </a>
+                <a class="upload block-app-upload">下载2</a>
               </div>
               <div class="mui-collapse-content">
-                <p>面板1子内容</p>
-              </div>
-              <div class="mui-collapse-content">
-                <p>面板1子内容</p>
+                <a class="block-app">
+                  <p>有币</p>
+                </a>
+                <a class="upload block-app-upload">下载3</a>
               </div>
             </li>
           </ul>
@@ -155,21 +162,49 @@
       
       var storeArr = {
         '淘宝联盟': 'http://pub.alimama.com',
-        '京东联盟': 'https://qwd.jd.com/',
+        '京东联盟': 'https://qwd.jd.com',
         '斐讯联盟': 'https://mall.phicomm.com/vsgoods.html?vsid=27000347328',
         '苏宁联盟': 'http://sums.suning.com/union/home.html',
         '小米联盟': 'http://union.mi.com/site/bind'
+      }
+      
+      var blockApp = {
+        '公信宝': 'https://www.gxb.io',
+        '网易星球': 'https://star.8.163.com',
+        '有币': ''
+      }
+      
+      var appLinkUpload = {
+        '下载1': 'https://blockcity.tfbjea.cn/#/jHSVMdvFIEeiz2oxlUt002768/v1',
+        '下载2': 'https://i.epay.126.net/m/at/assets/download/index.html',
+        '下载3': 'http://m.manymanycoin.com/'
       }
 
       mui('.container').on('tap', '.webShow', function(e) {
         var storeText = e.target.innerText;
         if(storeText) {
-          storeUrl = storeArr[storeText];
+          var storeUrl = storeArr[storeText];
           if(storeUrl) {
             window.location = storeUrl;
           }
         }
-      });
+      }).on('tap', '.block-app', function(e) {
+        var storeText = e.target.innerText;
+        if(storeText) {
+          var storeUrl = blockApp[storeText];
+          if(storeUrl) {
+            window.location = storeUrl;
+          }
+        }
+      }).on('tap', '.block-app-upload', function(e) {
+        var storeText = e.target.innerText;
+        if(storeText) {
+          var storeUrl = appLinkUpload[storeText];
+          if(storeUrl) {
+            window.location = storeUrl;
+          }
+        }
+      })
     </script>
   </body>
 

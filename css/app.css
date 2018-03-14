@@ -19,3 +19,18 @@
 	font-size: 14px;
 	color: #8f8f94;
 }
+.mui-collapse-content{
+  position: relative;
+  overflow: hidden;
+}
+.upload{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 9px;
+  right: 14px;
+  font-size: 14px;
+  color: cornflowerblue;
+}
+
+
